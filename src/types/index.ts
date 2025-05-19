@@ -4,9 +4,4 @@ export interface Product {
   price: number;
   tags: string[];
   subscription: boolean;
-  thumbnail: {
-    width: number;
-    height: number;
-    url: string;
-  };
 }
